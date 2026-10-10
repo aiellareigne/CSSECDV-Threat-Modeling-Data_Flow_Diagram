@@ -20,6 +20,40 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Generic Trust Boundary"
+            ],
+            "id": "680a6e09-53d4-401a-9b2e-cc2cdb680927",
+            "source": {
+              "x": -840,
+              "y": -431
+            },
+            "target": {
+              "x": -720,
+              "y": 210
+            },
+            "vertices": [
+              {
+                "x": -900,
+                "y": -130
+              }
+            ]
+          },
+          {
             "position": {
               "x": -720,
               "y": -400
@@ -1167,16 +1201,6 @@
               "x": -270,
               "y": 130
             },
-            "vertices": [
-              {
-                "x": -420,
-                "y": -190
-              },
-              {
-                "x": -300,
-                "y": 70
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -1366,7 +1390,17 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": -420,
+                "y": -190
+              },
+              {
+                "x": -300,
+                "y": 70
+              }
+            ]
           }
         ],
         "description": "Corrected data flow diagram for system components"
