@@ -522,12 +522,6 @@
               "cell": "7e6767e1-9afd-4774-b2bf-4441d483ee83",
               "port": "2aa6a339-c15d-4f05-9fe8-22701b796245"
             },
-            "vertices": [
-              {
-                "x": -750,
-                "y": 10
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -542,7 +536,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": -750,
+                "y": 10
+              }
+            ]
           },
           {
             "position": {
@@ -1016,6 +1016,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1099,7 +1100,6 @@
               ]
             },
             "id": "63eb3751-71d4-4824-8315-58605942ea47",
-            "zIndex": 17,
             "data": {
               "type": "tm.Actor",
               "name": "Browser Client",
