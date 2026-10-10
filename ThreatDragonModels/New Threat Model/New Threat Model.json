@@ -370,6 +370,109 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User is\nAuthenticated",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User is\nAuthenticated"
+            ],
+            "id": "8e8eb000-8122-494c-98ac-1347d488bc2b",
+            "source": {
+              "cell": "7e6767e1-9afd-4774-b2bf-4441d483ee83",
+              "port": "2aa6a339-c15d-4f05-9fe8-22701b796245"
+            },
+            "target": {
+              "cell": "63eb3751-71d4-4824-8315-58605942ea47",
+              "port": "b8c4d485-e52f-4d35-98f5-cdb7c80152df"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Feedback \nComments Saved",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Feedback \nComments Saved"
+            ],
+            "id": "eee6ec6c-560e-4268-91fc-09fdd7252386",
+            "source": {
+              "cell": "7e6767e1-9afd-4774-b2bf-4441d483ee83",
+              "port": "8a964834-5da4-4698-8a46-5101855366d2"
+            },
+            "target": {
+              "cell": "63eb3751-71d4-4824-8315-58605942ea47",
+              "port": "f376153b-2464-42a1-9d54-f23dae72b3a6"
+            },
+            "vertices": [
+              {
+                "x": -650,
+                "y": 40
+              },
+              {
+                "x": -760,
+                "y": 60
+              }
+            ]
+          },
+          {
             "position": {
               "x": -665,
               "y": -109.99999999999989
@@ -816,6 +919,170 @@
             },
             "target": {
               "cell": "2c3b0e16-81ad-4bb1-a174-9b402881b232",
+              "port": "799eadc0-4488-426d-8636-38682fe65f9e"
+            },
+            "vertices": []
+          },
+          {
+            "position": {
+              "x": -1020,
+              "y": -109.99999999999969
+            },
+            "size": {
+              "width": 200,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Browser Client"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f81079fd-edf4-4ef5-b381-af9dc69bb712"
+                },
+                {
+                  "group": "right",
+                  "id": "b8c4d485-e52f-4d35-98f5-cdb7c80152df"
+                },
+                {
+                  "group": "bottom",
+                  "id": "f376153b-2464-42a1-9d54-f23dae72b3a6"
+                },
+                {
+                  "group": "left",
+                  "id": "ec664a83-ac3c-4e22-b9de-bf534fdcf1c1"
+                }
+              ]
+            },
+            "id": "63eb3751-71d4-4824-8315-58605942ea47",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Browser Client",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User sends User Credentials",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User sends User Credentials"
+            ],
+            "id": "e2693c06-d07d-4618-a440-e3805daf61f1",
+            "source": {
+              "cell": "63eb3751-71d4-4824-8315-58605942ea47",
+              "port": "f81079fd-edf4-4ef5-b381-af9dc69bb712"
+            },
+            "target": {
+              "cell": "7e6767e1-9afd-4774-b2bf-4441d483ee83",
               "port": "799eadc0-4488-426d-8636-38682fe65f9e"
             },
             "vertices": []
